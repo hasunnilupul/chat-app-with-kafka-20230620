@@ -1,0 +1,42 @@
+.signin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.signin .header{
+    font-size: 2rem;
+    font-weight: bold;
+    color: darkslateblue;
+}
+
+.signin .signin-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.signin .signin-container .input-username {
+    display: block;
+    height: 1.5rem;
+    border: 2px solid slategray;
+    border-radius: 5px;
+    padding: 0.25rem 0.5rem;
+}
+
+.signin .signin-container .btn-signin {
+    display: block;
+    border: 3px solid slategray;
+    color: gray;
+    border-radius: 5px;
+    padding: 0.5rem 0.5rem;
+    margin-top: .75rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.signin .signin-container .btn-signin:hover{
+    background-color: slategray;
+    color: white;
+}
