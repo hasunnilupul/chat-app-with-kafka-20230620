@@ -9,7 +9,7 @@ import User from "./modal/User";
 import ChatAPIService from "./services/ChatAPIService";
 import Message from './modal/Message';
 
-const WEB_SOCKET_URL: string = 'http://localhost:8080/ws-chat/';
+const WEB_SOCKET_URL: string = 'http://localhost:8280/ws-chat/';
 const App = () => {
     const [loggedUser, setLoggedUser] = useState<User | null>(null);
     const [connected, setConnected] = useState(false);

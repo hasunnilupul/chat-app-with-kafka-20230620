@@ -2,7 +2,7 @@ import Axios from "axios";
 import Message from "../modal/Message";
 
 const api = Axios.create({
-    baseURL: 'http://localhost:8080/api/v1/chat'
+    baseURL: 'http://localhost:8280/api/v1/chat'
 });
 
 const ChatAPIService = {
